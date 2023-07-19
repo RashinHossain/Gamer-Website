@@ -1,132 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Poppins&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-
-*{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-}
-
-
-/* navbar */
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px 50px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .logo-part{
     display: flex;
-    gap: 5px;
+    gap: 20px;
+    padding: 10px 30px;
     align-items: center;
-    text-align: center;
 }
-.logo{
-    width: 86.041px;
-    height: 40px;
-    flex-shrink: 0;
-}
-.bar>ul{
-    display: flex;
-    gap: 30px;
+.logo-img{
     
+    height: 100%;
 }
-.bar li{
-    list-style: none;
-    cursor: pointer;
+.gamers-logo-title{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
 }
-#Gamer{
+.gamers-g{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
-.logo-part h3{
-    font-size: 45px;
-    font-weight: 700;
+.bar-part > ul{
+    display: flex;
+    gap: 40px;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-/* .follow-deco{
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    width: 262px;
-    height: 56px;
-    flex-shrink: 0;
-    text-align: center;
-    padding: 20px;
-} */
-            
-                    /* bannner part  */
-    .banner-container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-        padding: 20px 200px;
-        text-align: center;
-        gap: 50px;
-    }
-    .banner-style{
-        text-align: center;
-        font-size: 95px;
-        font-weight: 800;
-        line-height: normal;
-        text-transform: uppercase;
-        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    }
-    .banner-title{
-        color: #0B0223;
-    text-align: center;
-    font-size: 48px;
-    font-weight: 600;
-    text-transform: uppercase;
-    }
-    /* .banner-text{
-        width: 901px;
-        height: 700px;
-        align-items: center;
-     */
-
-    }
-    .banner-image{
-        width: 711px;
-        height: 446px;
-    }
-    .banner-des{
-        color: #534C64;
-       text-align: start;
-        font-size: 20px;
-        font-weight: 500;
-        text-transform: lowercase;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        @media screen and (max-width:538px) {
-            .header, .banner-container{
-               flex-direction: column;
-
-            }
-            .banner-container{
-                padding: 20px;
-            }
-        }
+.bar-part li{
+    list-style: none;
+   
+}
+.bar-part li a{
+    text-decoration: none;
+    color: black;
+   
+}
