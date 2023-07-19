@@ -158,7 +158,7 @@
 
 footer{
     margin-top: 70px;
-    width: 1920px;
+    width: 1490px;
     height: 636px;
     background: #0B0223;
 }
@@ -167,12 +167,12 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    /* padding: 50px; */
     
 }
 .foot-title{
     color: white;
-    padding-right: 700px;
+    /* padding-right: 700px; */
 }
 .card{
     color: #FFF;
@@ -185,7 +185,7 @@ footer{
     justify-content: center;
     gap: 50px;
     align-items: center;
-    padding-right: 650px;
+    /* padding-right: 650px; */
 }
 .icon-container{
     display: flex;
@@ -198,7 +198,7 @@ footer{
     display: flex;
     gap: 30px;
     justify-content: center;
-    padding-right: 650px;
+    /* padding-right: 650px; */
     margin-top: 60px;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
@@ -210,6 +210,6 @@ footer{
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    padding-right: 700px;
+   /* padding-left: 200px; */
     margin-top: 80px;
 }
