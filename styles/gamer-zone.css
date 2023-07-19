@@ -116,7 +116,7 @@
 
 .online-game-container{
     text-align: center;
-    border: 2px solid blue;
+    
 
 }
 .online-game-title{
@@ -155,3 +155,61 @@
     
 }
     
+
+footer{
+    margin-top: 70px;
+    width: 1920px;
+    height: 636px;
+    background: #0B0223;
+}
+
+.foot-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+}
+.foot-title{
+    color: white;
+    padding-right: 700px;
+}
+.card{
+    color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+}
+.foot-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding-right: 650px;
+}
+.icon-container{
+    display: flex;
+    gap: 70px;
+    margin-top: 70px;
+    padding-left: 300px;
+}
+.terms-container{
+    color: white;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-right: 650px;
+    margin-top: 60px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-copy{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 700px;
+    margin-top: 80px;
+}
