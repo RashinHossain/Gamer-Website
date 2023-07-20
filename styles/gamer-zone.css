@@ -325,13 +325,24 @@ footer{
 
 
 @media screen and (max-width:532px) {
-    .header, .logo-part, .banner, .foot-logo, .foot-cards, .icon-container, .terms-container, .bar-part > ul{
+    .header, .logo-part, .banner, .foot-logo, .foot-cards, .icon-container, .terms-container, .bar-part > ul, .foot-logo, .foot-cards{
         flex-direction: column;
     }
-    .game-cards{
+    .game-cards, .box{
         grid-template-columns: 1fr;
     }
-    .banner-img{
-        width: 300px;
+    .banner-img img{
+        width: 100%;
     }
+
+    .box-container{
+       grid-template-columns: 1fr;
+    }
+
+    .image-part{
+        grid-template-columns: 1fr;
+    }
+
+
+
 }
